@@ -8,7 +8,7 @@
   },
   "author": "Yair Nevet",
   "license": "ISC",
-  "description": "Coding capabilities demonstration",
+  "description": "A web-server which response with the user input/data",
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.21.1",
