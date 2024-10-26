@@ -7,7 +7,6 @@ const port = 3000;
 app.use(parser.text());
 
 app.post("/echo", (req, res) => {
-  console.log(req.body);
   res.send(req.body);
 });
 
