@@ -10,7 +10,6 @@ app.post("/echo", (req, res) => {
   res.send(req.body);
 });
 
-console.log(require.main);
 if (require.main === module) {
   app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
