@@ -31,7 +31,7 @@ curl -X POST -H "Content-Type: text/plain" -d "Hello World" http://localhost:300
 To execute tests, run:
 
 ```bash
-npx jest
+npm run test
 ```
 
 Make sure to run these commands in the root directory of the project.
