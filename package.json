@@ -1,5 +1,5 @@
 {
-  "name": "apprentice-ai",
+  "name": "echo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "author": "Yair Nevet",
   "license": "ISC",
-  "description": "Coding capabilities demonstration",
+  "description": "echo web server",
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.21.1"
