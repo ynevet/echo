@@ -19,6 +19,7 @@ To run the server, execute the following command:
 npm run start
 ```
 Or with watching:
+
 ```npm run start:watch```
 
 To execute tests, run:
