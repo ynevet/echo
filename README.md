@@ -18,8 +18,10 @@ To run the server, execute the following command:
 ```bash
 npm run start
 ```
+Or with watching:
+```start:watch```
 
-To run tests, use:
+To execute tests, run:
 
 ```bash
 npx jest
