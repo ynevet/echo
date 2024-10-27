@@ -22,6 +22,8 @@ Or with watching:
 
 ```npm run start:watch```
 
+### Testing
+
 To manually test it, you can use `cURL`, for example:
 
 ```bash
