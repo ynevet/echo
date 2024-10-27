@@ -7,6 +7,12 @@ This project is tested via SuperTest and Jest.
 
 ## Instructions
 
+To install all dependencies, run:
+
+```bash
+npm i
+```
+
 To run the server, execute the following command:
 
 ```bash
