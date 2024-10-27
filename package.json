@@ -1,17 +1,20 @@
 {
-  "name": "echo-server",
+  "name": "apprentice-ai",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/app.js",
-    "start:watch": "node --watch ./src/app.js"
+    "start:watch": "node --watch ./src/app.js",
+    "test": "jest"
   },
   "author": "Yair Nevet",
   "license": "ISC",
-  "description": "A web-server which response with the user input/data",
+  "description": "Coding capabilities demonstration",
   "dependencies": {
     "body-parser": "^1.20.3",
-    "express": "^4.21.1",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
     "jest": "^29.7.0",
     "supertest": "^7.0.0"
   }

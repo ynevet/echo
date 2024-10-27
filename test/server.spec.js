@@ -3,7 +3,7 @@ const app = require("../src/app");
 const api = supertest(app);
 
 it("should echo input from client", async () => {
-  const msg = "Message from Yair";
+  const msg = "message from Yair";
   const response = await api
     .post("/echo")
     .set("Content-Type", "text/plain")

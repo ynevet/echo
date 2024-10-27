@@ -22,6 +22,12 @@ Or with watching:
 
 ```npm run start:watch```
 
+To manually test it, you can use `cURL`, for example:
+
+```bash
+curl -X POST -H "Content-Type: text/plain" -d "Hello World" http://localhost:3000/echo
+  ```
+
 To execute tests, run:
 
 ```bash
