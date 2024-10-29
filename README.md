@@ -29,6 +29,7 @@ To manually test it, you can use `cURL`, for example:
 ```bash
 curl -X POST -H "Content-Type: text/plain" -d "Hello World" http://localhost:3000/echo
   ```
+Once executed, you should expect to receive the same message you sent, "Hello World," from the server.
 
 To execute tests, run:
 
